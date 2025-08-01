@@ -1,0 +1,41 @@
+.box{
+    height: 120px;
+    width: 120px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.static{
+    background-color: rgb(0, 220, 147);
+    position: static;
+}
+.absolute{
+    background-color: rgb(0, 247, 255);
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.fixed{
+    background-color: rgb(78, 0, 151);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+.relative{
+    background-color: rgb(210, 105, 30);
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.wrapper{
+    position: relative;
+    height: 200px;
+    background-color: #ddd;
+    margin: 50px 20px;
+    border: 2px #000000;
+}
