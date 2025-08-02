@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; /* spacing between logo and links */
+  background-color: #2c3e50;
+  padding: 15px 0;
+}
+.logo{
+  height: 50px;
+  width: auto;
+  float: left;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 60px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+    color: darkgray;
+    text-decoration: underline;
+    font-weight: bold;
+}
